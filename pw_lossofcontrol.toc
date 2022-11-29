@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: |cff00ffff*|r |cffabcdefpw_lossofcontrol|r
+## Notes: Loss of Control Alerts
+## Version: 1.0
+## Author: s0high
+## SavedVariables: LosOfControl
+
+pw_lossofcontrol.xml
