@@ -1,6 +1,6 @@
 # Loss Of Control (standalone)
 <h1 align="left">
-  <a href="https://github.com/s0h2x/pw_lossofcontrol"><img src="https://user-images.githubusercontent.com/33549022/204646710-3ec5da44-fb66-4edf-b9b8-c07233ff9aae.png" alt="pw lossofcontrol"></a>
+  <a href="https://github.com/s0h2x/pw_lossofcontrol"><img src="https://user-images.githubusercontent.com/33549022/204646710-3ec5da44-fb66-4edf-b9b8-c07233ff9aae.png" alt="pw_lossofcontrol"></a>
 </h1>
 
 <h4 align="left">Loss of Control (Alerter)</h4>
