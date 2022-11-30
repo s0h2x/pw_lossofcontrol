@@ -23,6 +23,7 @@
 - Move sub folder to AddOns
 - Remove the word ***-master*** from folder name
 - Enjoy!
+
 ## Settings
 - /loc - For setup frame. **Drag to move, scroll to resize**.
 - /locreset - Reset position to default.
