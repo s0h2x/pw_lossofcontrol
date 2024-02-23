@@ -2198,3 +2198,6 @@ tableMixin = function(object, ...)
 	end
 	return object;
 end
+
+SOUNDKIT = SOUNDKIT or {};
+SOUNDKIT.UI_LOSS_OF_CONTROL_START = "Interface\\AddOns\\pw_lossofcontrol\\sound\\34468.ogg";
