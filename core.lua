@@ -77,13 +77,13 @@ end
 
 local function LossOfControlFrame_AnimIsPlaying(self)
 	local isPlaying = false;
-	if self.RedLineTop.Anim:IsPlaying() then
+	if self.RedLineTop.Anim and self.RedLineTop.Anim:IsPlaying() then
 		isPlaying = true;
 	end
-	if self.RedLineBottom.Anim:IsPlaying() then
+	if self.RedLineBottom.Anim and self.RedLineBottom.Anim:IsPlaying() then
 		isPlaying = true;
 	end
-	if self.Icon.Anim:IsPlaying() then
+	if self.Icon.Anim and self.Icon.Anim:IsPlaying() then
 		isPlaying = true;
 	end
 	return isPlaying;
