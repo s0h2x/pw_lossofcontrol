@@ -12,7 +12,8 @@ local max = math.max;
 local private = select(2,...);
 local Timer = private.Timer;
 local RegisterCMD = private.SetSlashCMD;
-local PlaySound = PlaySound;
+--local PlaySound = PlaySound;
+local PlaySoundFile = PlaySoundFile;
 local GetTime = GetTime;
 local UnitAura = UnitAura;
 local UnitAffectingCombat = UnitAffectingCombat;
@@ -340,7 +341,8 @@ function LossOfControlFrame_SetUpDisplay(self, animate, locType, spellID, text, 
 			self.TimeLeft.SecondsText.scrollTime = 0;
 			self.Cooldown:Hide();
 			self:AnimPlay();
-			PlaySound(34468);
+			--PlaySound(34468);
+			PlaySoundFile(SOUNDKIT.UI_LOSS_OF_CONTROL_START);
 		end
 		self.priority = priority;
 		self.spellID = spellID;
